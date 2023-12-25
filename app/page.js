@@ -27,7 +27,7 @@ export default function Home() {
             }
           };
         getData();
-    },[user,todo])
+    },[user])
 
     //update data
     const handleChange = async (id, checked) => {
